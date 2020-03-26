@@ -1,3 +1,4 @@
+// While Loop. Se ejecuta mientras la condición del while sea verdadera
 let i = 0;
 while(i < 10){
     if(i == 4){
@@ -17,3 +18,10 @@ while(i<reproductor.length){
     i++;
     
 }
+
+// Do While. Se ejecuta al menos una vez, y si la condición es verdadera se continúa ejecutando
+i = 0;
+do{
+    console.log(`El número actual es ${i}`);
+    i++;
+}while(i < 10)
